@@ -35,11 +35,4 @@ public class VisitMapService extends AbstractMapService<Visit, Long> implements 
     public Visit findById(Long id) {
         return findById(id);
     }
-
-    @Override
-    public Visit save(Object T) {
-        return null;
-    }
-
-
 }

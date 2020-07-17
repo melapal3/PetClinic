@@ -33,8 +33,4 @@ public class PetTypeMapService extends AbstractMapService<PetType, Long> impleme
         return super.findById(id);
     }
 
-    @Override
-    public PetType save(Object T) {
-        return null;
-    }
 }

@@ -32,9 +32,4 @@ public class PetMapService extends AbstractMapService<Pet, Long> implements PetS
     public Pet findById(Long id) {
         return null;
     }
-
-    @Override
-    public Pet save(Object T) {
-        return null;
-    }
 }

@@ -97,9 +97,9 @@ public class DataLoader implements CommandLineRunner {
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
-        vet1.setFirstName("veto2");
-        vet1.setLastName("olo");
-        vet1.getSpecialities().add(savedDentistry);
+        vet2.setFirstName("veto2");
+        vet2.setLastName("olo");
+        vet2.getSpecialities().add(savedDentistry);
         vetService.save(vet2);
 
         System.out.println("VETTTTT upjfzefjhzipfçzoj");
